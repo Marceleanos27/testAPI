@@ -1,3 +1,9 @@
+export default async function handler(req, res) {
+  console.log('API_KEY:', process.env.API_KEY); // DEBUG ONLY
+  // rest of your code...
+}
+
+
 // api/chat.js
 
 export default async function handler(req, res) {
